@@ -264,3 +264,9 @@ vendor/firmware/NT36xxx_MP_Setting_Criteria_601D.csv
 vendor/firmware/NT36xxx_MP_Setting_Criteria_602A.csv
 vendor/firmware/djn1_nt36525c_novatek_ts_fw.bin
 vendor/firmware/djn1_nt36525c_novatek_ts_mp.bin
+
+# Touchscreen firmware (recovery)
+vendor/firmware/ILITEK_FW_TIANMA_9882N:recovery/root/vendor/firmware/ILITEK_FW_TIANMA_9882N
+vendor/firmware/ILITEK_FW_TXD_9882N:recovery/root/vendor/firmware/ILITEK_FW_TXD_9882N
+vendor/firmware/djn1_nt36525c_novatek_ts_fw.bin:recovery/root/vendor/firmware/djn1_nt36525c_novatek_ts_fw.bin
+vendor/firmware/djn1_nt36525c_novatek_ts_mp.bin:recovery/root/vendor/firmware/djn1_nt36525c_novatek_ts_mp.bin

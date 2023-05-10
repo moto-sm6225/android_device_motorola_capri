@@ -30,8 +30,6 @@ function ident_fps {
     log "- install FPC driver"
     insmod /vendor/lib/modules/fpc1020_mmi.ko
     sleep 1
-    restorecon -R /sys/class/fingerprint
-    restorecon -R /sys/devices/virtual/fingerprint
     log "- identify FPC sensor"
     setprop $PROP_FPS_IDENT ""
     start fpc_ident

@@ -6,6 +6,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE), caprip)
+ifeq ($(TARGET_DEVICE), capri)
 include $(call all-makefiles-under, $(LOCAL_PATH))
 endif

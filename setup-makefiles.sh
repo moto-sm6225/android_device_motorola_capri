@@ -8,7 +8,7 @@
 
 set -e
 
-export DEVICE=caprip
+export DEVICE=capri
 export DEVICE_COMMON=sm6225-common
 export VENDOR=motorola
 

@@ -7,10 +7,10 @@
 # Inherit from sm6225-common
 include device/motorola/sm6225-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/motorola/caprip
+DEVICE_PATH := device/motorola/capri
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := caprip
+TARGET_BOOTLOADER_BOARD_NAME := capri
 
 # Display
 TARGET_SCREEN_DENSITY := 280
@@ -29,7 +29,7 @@ ODM_MANIFEST_N_FILES := $(DEVICE_PATH)/sku/manifest_n.xml
 ODM_MANIFEST_NC_FILES := $(DEVICE_PATH)/sku/manifest_nc.xml
 
 # Kernel
-TARGET_KERNEL_CONFIG += vendor/ext_config/caprip-default.config
+TARGET_KERNEL_CONFIG += vendor/ext_config/capri-default.config
 
 # Kernel Modules - Vendor Boot
 BOARD_VENDOR_RAMDISK_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/vendor_boot.modules.load))
@@ -58,4 +58,4 @@ BOARD_AVB_VBMETA_SYSTEM_ROLLBACK_INDEX := 21
 BOARD_AVB_VBMETA_SYSTEM_ROLLBACK_INDEX_LOCATION := 2
 
 # Inherit from the proprietary version
-include vendor/motorola/caprip/BoardConfigVendor.mk
+include vendor/motorola/capri/BoardConfigVendor.mk

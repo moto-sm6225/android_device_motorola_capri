@@ -3,13 +3,13 @@
 # ACDB
 vendor/bin/init.mmi.acdb.sh
 vendor/etc/acdbdata/adsp_avs_config.acdb
-vendor/etc/acdbdata/common/Bluetooth_cal.acdb
-vendor/etc/acdbdata/common/General_cal.acdb
-vendor/etc/acdbdata/common/Global_cal.acdb
-vendor/etc/acdbdata/common/Handset_cal.acdb
-vendor/etc/acdbdata/common/Hdmi_cal.acdb
-vendor/etc/acdbdata/common/Headset_cal.acdb
-vendor/etc/acdbdata/common/Speaker_cal.acdb
+vendor/etc/acdbdata/common/Bluetooth_cal.acdb:vendor/etc/acdbdata/Bluetooth_cal.acdb
+vendor/etc/acdbdata/common/General_cal.acdb:vendor/etc/acdbdata/General_cal.acdb
+vendor/etc/acdbdata/common/Global_cal.acdb:vendor/etc/acdbdata/Global_cal.acdb
+vendor/etc/acdbdata/common/Handset_cal.acdb:vendor/etc/acdbdata/Handset_cal.acdb
+vendor/etc/acdbdata/common/Hdmi_cal.acdb:vendor/etc/acdbdata/Hdmi_cal.acdb
+vendor/etc/acdbdata/common/Headset_cal.acdb:vendor/etc/acdbdata/Headset_cal.acdb
+vendor/etc/acdbdata/common/Speaker_cal.acdb:vendor/etc/acdbdata/Speaker_cal.acdb
 vendor/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.00.pmd
 vendor/etc/acdbdata/nn_ns_models/fai__2.2.0_0.1__3.0.0_0.0__eai_1.00.pmd
 vendor/etc/acdbdata/nn_vad_models/fai_3.0.0_0.0_eai_1.00.pmd

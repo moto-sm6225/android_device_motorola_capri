@@ -9,7 +9,8 @@ $(call inherit-product, device/motorola/sm6225-common/bengal.mk)
 
 # A/B
 AB_OTA_PARTITIONS += \
-    vbmeta_system
+    vbmeta_system \
+    vendor_boot
 
 # Audio - Configs
 PRODUCT_COPY_FILES += \
